@@ -1,0 +1,10 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: test-ansible-job-2-job
+  namespace: aap
+spec:
+  connection_secret: aapaccess
+  job_template_name: create-apache-vm
+  extra_vars: 

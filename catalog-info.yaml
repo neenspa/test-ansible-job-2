@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-ansible-job-2
+  description: This job creates and configures am Apache VM on VSphere 
+  annotations:
+    backstage.io/kubernetes-id: test-ansible-job-2
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/test-ansible-job-2
+spec:
+  type: api
+  lifecycle: production
+  owner: daniele
